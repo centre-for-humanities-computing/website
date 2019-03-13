@@ -38,7 +38,7 @@ const state = {
     {
       title: 'Software Carpentry Workshops',
       body: `
-        We organize and teach introductory programming courses for scientists as part of Software Carpentries
+        We organize and teach introductory programming courses for scientists as part of <em><a href="https://software-carpentry.org/" target="_blank">Software Carpentries</a></em>
       `,
       src: 'softwareCarpentry.jpg',
       tag: 'softwareCarpentry'
