@@ -108,7 +108,7 @@
           </template>
         </v-toolbar-items>
       <v-spacer></v-spacer>
-      <auth></auth>
+      <auth v-if="false"></auth>
     </v-toolbar>
     <v-navigation-drawer
         :value="drawer"
