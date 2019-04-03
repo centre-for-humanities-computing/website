@@ -15,7 +15,7 @@ npm run dev
 npm run build
 
 # start for production
-npm run prod
+forever start ./server/bin/www
 ```
 
 ## Texts
