@@ -44,7 +44,7 @@ const state = {
         The course covers installation of <a href="https://jupyter.org/" target="_blank">Jupyter notebooks</a> as part of <a href="https://www.anaconda.com/distribution/" target="_blank">Anaconda</a>, 
         a gentle introduction to its features, and an introduction to data analysis basics as featured by the notebooks in the repository.
       `,
-      src: 'jupyter.jpg',
+      src: 'jupyter.png',
       tag: 'jupyter'
     },
     {
@@ -54,7 +54,7 @@ const state = {
         <a href="https://www.youtube.com/watch?v=4urg_apOoJY&list=PLzmqDzBWP43Rsd2jctidmjfkNAsR4NTAu" target="_blank">mac OS X</a> and <a href="https://www.youtube.com/watch?v=8e7M8NqGyF4&list=PLzmqDzBWP43QrknrraIcf9Dd7HY9or3dz" target="_blank">windows</a> users respectively. 
         The course then continues with by covering <a href="https://www.youtube.com/watch?v=M7UgSJmWHKM&list=PLzmqDzBWP43RDUE6St-51PnXBG2J7shbN" target="_blank">a selection of text operations with Voyant tools</a>.
       `,
-      src: 'voyant.jpg',
+      src: 'voyant.png',
       tag: 'voyant'
     }
   ]
