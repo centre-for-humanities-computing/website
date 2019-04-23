@@ -30,7 +30,7 @@ const state = {
     {
       title: 'Stop Word List Editor',
       body: `
-        This is feature was again developed for the DATAKUBEN project. This simple widget implements an
+        This feature was developed for the DATAKUBEN project. This simple widget implements an
         <a href="#/stopWords">editor for stop words</a> to be included into Python or JavaScript code. All tags are
         represented visually for convenient search and manipulation.
       `,
