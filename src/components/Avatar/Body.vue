@@ -13,7 +13,7 @@
           </div>
         </div>
         <p
-          mt-8
+          mt-4
           class="body"
           v-html="body"
         ></p>

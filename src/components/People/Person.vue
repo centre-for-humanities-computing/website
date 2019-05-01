@@ -10,7 +10,7 @@
           ></a-badge>
         </v-card-title>
       </v-flex>
-      <v-flex xs9 lg10>
+      <v-flex xs9 lg10 mt-1>
         <a-body
           :title="bodyTitle"
           :subtitle="bodySubtitle"
