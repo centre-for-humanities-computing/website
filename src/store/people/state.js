@@ -10,6 +10,7 @@ const state = {
   cards: [
     {
       title: 'Professor',
+      gender: 'm',
       functions: ['Managing Director', 'Code Refinery Board Member', 'Software Carpentry Instructor'],
       name: 'Kristoffer L. Nielbo',
       src: 'kristofferSmall.png',
@@ -24,6 +25,7 @@ const state = {
     },
     {
       title: 'PhD',
+      gender: 'm',
       functions: ['Research Software Engineer', 'Instructor for Software Carpentry and Code Refinery'],
       name: 'Max R. Eckardt',
       src: 'meSmall.png',
@@ -39,6 +41,7 @@ const state = {
     },
     {
       title: 'Lector',
+      gender: 'm',
       functions: ['Data Services and Hosting'],
       name: 'Peter B. Vahlstrup',
       src: 'peterSmall.png',
@@ -53,6 +56,7 @@ const state = {
     },
     {
       title: 'PhD Student',
+      gender: 'm',
       functions: ['Research Software Engineer'],
       name: 'Ross D. Kristensen-McLachlan',
       src: 'ross_with_hat.png',
@@ -67,6 +71,7 @@ const state = {
     },
     {
       title: 'Student',
+      gender: 'm',
       functions: ['Programmer'],
       name: 'Kenneth Enevoldsen',
       src: 'kennethSmall.png',
@@ -79,6 +84,7 @@ const state = {
     },
     {
       title: 'Student',
+      gender: 'm',
       functions: ['Programmer'],
       name: 'Oliver S. Jarvis',
       src: 'oliverbw.png',
@@ -91,12 +97,25 @@ const state = {
     },
     {
       title: 'Student',
+      gender: 'm',
       functions: ['Programmer'],
       name: 'Henning Holm',
       src: 'henning.png',
       specializations: [
         'Single Page Applications',
         'Full-stack web development'
+      ]
+    },
+    {
+      title: 'Student',
+      gender: 'f',
+      functions: ['Intern'],
+      name: 'Anne Sophie Kyng',
+      src: 'anne_light.png',
+      specializations: [
+        'Quantitative Analysis',
+        'Digital Humanities',
+        'Monty Python'
       ]
     }
   ]
