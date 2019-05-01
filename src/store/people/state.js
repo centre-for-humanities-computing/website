@@ -114,8 +114,7 @@ const state = {
       src: 'anne_light.png',
       specializations: [
         'Quantitative Analysis',
-        'Digital Humanities',
-        'Monty Python'
+        'Digital Humanities'
       ]
     }
   ]
