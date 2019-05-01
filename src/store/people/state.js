@@ -107,7 +107,7 @@ const state = {
       ]
     },
     {
-      title: 'Student',
+      title: 'Master of Arts',
       gender: 'f',
       functions: ['Intern'],
       name: 'Anne Sophie Kyng',
