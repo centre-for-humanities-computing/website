@@ -9,13 +9,13 @@ const state = {
   ],
   cards: [
     {
-      title: 'We aim for excellence',
+      title: 'We Aim for Excellence',
       body: `
 The <a href="#/people"><em>Centre for Humanities Computing Aarhus (CHCAA)</em></a> is the spearhead of computationally empowered
 humanities research at Aarhus University. We adopt, research and develop tomorrow's data-driven methodologies, tools, and synergies.
 Our aim is to provide humanities research with relevant, efficient, and usable computational tools and resources. Whether you need help with
-project design, data management, or analytics, we are there to support you. We belive that software should promote, not prevent, open, human-centered
-and adaptive research processes. We therefore take pride in developing custom solutions to serve your particular needs and requirements.
+project design, data management, or analytics, we are here to support you. We believe that software should promote, not prevent, open, human-centered
+and adaptive research processes. Therefore, we take pride in developing custom solutions to serve your particular needs and requirements.
 `,
       src: 'HD_markus-spiske-1054398-unsplash.jpg',
       tag: 'center'
@@ -24,7 +24,7 @@ and adaptive research processes. We therefore take pride in developing custom so
       title: 'Competency Development',
       body: `
 We acquire, research, and develop state-of-the-art technologies, methodologies, and best practices for research
-on digital data in the Humanities. The <em>CHCAA</em> maintains a working pipeline to produce the best
+in digital data in the humanities. The <em>CHCAA</em> maintains a working pipeline to produce the best
 learning material for you to acquire relevant cutting edge technologies in a humane format. We have extensive experience with development of
 digital and computational competencies (or literacy) in the humanities. We are also involved in serveral initiatives (The Carpentries and CodeRefinery)
 that promote good programming practice and software development for research irrespective of faculty.  These initiatives aim to help researchers to get their work done
