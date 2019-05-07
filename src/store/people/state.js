@@ -116,6 +116,18 @@ const state = {
         'Quantitative Analysis',
         'Digital Humanities'
       ]
+    },
+    {
+      title: 'Student',
+      gender: 'f',
+      functions: ['Programmer', '*Techno Philosopher*'],
+      name: 'Ida Marie S. Lassen',
+      src: 'idamarie_small.png',
+      specializations: [
+        'Python',
+        'Java',
+        'Swift'
+      ]
     }
   ]
 }
