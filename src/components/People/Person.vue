@@ -11,11 +11,31 @@
         </v-card-title>
       </v-flex>
       <v-flex xs9 lg10 mt-1>
-        <a-body
-          :title="bodyTitle"
-          :subtitle="bodySubtitle"
-          :body="bodyBody"
-        ></a-body>
+        <v-card-text>
+          <v-layout column>
+            <v-flex xs12>
+              <div class="heading">
+              <h2
+                class="title"
+                v-html="bodyTitle"></h2>
+              <div v-if="bodySubtitle">
+                <em
+                  class="subtitle"
+                  v-html="bodySubtitle"></em>
+              </div>
+            </div>
+            </v-flex>
+            <v-flex
+              xs12
+              mt-1
+            >
+              <p
+                class="body"
+                v-html="bodyBody"
+              ></p>
+            </v-flex>
+          </v-layout>
+        </v-card-text>
       </v-flex>
     </v-layout>
   </v-card>
