@@ -2,25 +2,25 @@ const state = {
   slides: [
     {
       title: 'Cognitive Services',
-      body: 'State-of-the-Art machine learning on your data',
+      body: 'State-of-the-art machine learning on your data',
       src: '400_imgix-391813-unsplash.jpg',
       tag: 'cognitiveSupport'
     },
     {
       title: 'Funding and Project Proposals',
-      body: 'Consulting and assistance for applications',
+      body: 'Consultations and assistance with applications',
       src: '400_rawpixel-983726-unsplash.jpg',
       tag: 'consulting'
     },
     {
-      title: 'App & Data Hosting',
+      title: 'App and Data Hosting',
       body: 'Offering data and functionality your way',
       src: '400_imgix-391813-unsplash.jpg',
       tag: 'hosting'
     },
     {
       title: 'Web Services',
-      body: 'Making accesible the best the Internet has to offer',
+      body: 'Making accessible the best the Internet has to offer',
       src: '400_thomas-kvistholt-191153-unsplash.jpg',
       tag: 'webService'
     },
@@ -35,13 +35,13 @@ const state = {
     {
       title: 'Cognitive Services',
       body: `
-      Do you need to automate analysis of language, audio, images or video? Are your data
+      Do you need to automate analysis of language, audio, images or video? Is your data
       too complex to deal with by hand? Or do you simply want to experiment with the possibilities
-      of Artificial Intelligence in your research domain. We offer state-of-the arts
-      machine learning and AI to solve your specific problem. Our team research and develop machine learning
-      algorithms with a particular interest in applications in the the humanities. We have worked with neural
-      networks from back when they were only shallow and have since acquired extensive experience with the major
-      deep learning frameworks.
+      of Artificial Intelligence in your research domain? We offer state-of-the art
+      machine learning and AI to solve your specific problem. Our team researches and develops machine learning
+      algorithms with a particular interest in applications in the the humanities. We have worked with neural 
+      networks and deep learning since we only had a shallow understanding of it, and have acquired extensive experience
+      with the major frameworks in the disciplines.
       `,
       src: 'HD_chris-liverani-552652-unsplash.jpg',
       tag: 'cognitiveSupport'
@@ -49,24 +49,24 @@ const state = {
     {
       title: 'Project Design and Application Consulting',
       body: `
-      As a researcher your knowledge and skills are are best inversted in your research
+      As a researcher, your knowledge and skills are are best invested in your research
       domain. In order to ensure that you have access to the most recent computational
       and digital technology, we offer consulting for and assistance with project design
-      and research applications. This service can take many forms, for instance project review,
+      and research applications. This service can take many forms, like project review,
       joined applications, or even development of a database prototype or proof of concept model.
       Should you need a software developer or data scientist for your application, we can also supply that.
-      Whatever is necessary for making successful projects and research application, we are there for support
+      Whatever is necessary for you to successfully complete your projects and research applications, we are here to support
       you.
       `,
       src: 'HD_rawpixel-983726-unsplash.jpg',
       tag: 'consulting'
     },
     {
-      title: 'App & Data Hosting',
+      title: 'App and Data Hosting',
       body: `
-      We offer infrastructure to host data securely. Currently we work on a custom-built domain-specific compiler for
-      fulltext-searchable text data services. As per our development paradigms this service will be highly scalable, and
-      feature seamless configuration and high usability. We achieve that by using user-maintained database schemas to
+      We offer infrastructure to host data securely and in compliance with GDPR-regulations. Currently we are working on a custom-built domain-specific compiler for
+      fulltext-searchable text data services. As per our development paradigms, this service will be scalable, and
+      feature seamless configuration and high usability. We achieve this standard by using user-maintained database schemas to
       dynamically assemble full-stack web applications with dedicated data backends, synchronized Lucene text-search
       indexes, and fully-featured user interfaces for access controlled CRUD operations.
       `,
@@ -76,7 +76,7 @@ const state = {
     {
       title: 'Web Services',
       body: `
-      The CHCAA keeps track of the state-of-the-art in web application technologies and trends. Our domain experts
+      The CHCAA keeps track of the cutting edge in web application technologies and trends. Our domain experts
       passionately develop a growing list of tools and services aimed at advancing your research. Our typical products
       range from web-crawlers to wrappers for cognitive services offered by third parties. All development is negotiated
       in a way that our product becomes a scalable service, ready to offer comparable functionality to other projects
@@ -88,11 +88,11 @@ const state = {
     {
       title: 'Software Development',
       body: `
-      Our research software engineers research and develop algorithms for the innovative implementation of the future's
-      challenges. We are in pursuit of more intelligible and practicable designs for efficient and sustainable
-      functionality. We believe that computational competency can be acclaimed in a explorative way with powerful and
+      Our software engineers research and develop algorithms for innovative solutions to the challenges of the future. 
+      We are in pursuit of more intelligible and practicable designs for efficient and sustainable
+      functionality. We believe that computational competency can be achieved in a explorative way with powerful and
       engaging tools. A special effort is put into the advancement of social coding practices, which connect researchers
-      to design and implement their own algorithms and tools.
+      to design processes and enable them to implement their own algorithms and tools.
       `,
       src: 'HD_arif-riyanto-974674-unsplash.jpg',
       tag: 'development'

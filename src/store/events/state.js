@@ -1,7 +1,7 @@
 const state = {
   slides: [
     {
-      title: 'HCHAA Calendar',
+      title: 'CHCAA Calendar',
       body: 'Past and Upcoming Activities',
       src: '400_daniel-chen-546446-unsplash.jpg',
       tag: 'events'
