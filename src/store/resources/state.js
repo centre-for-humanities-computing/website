@@ -10,7 +10,7 @@ const state = {
   cards: [
     {
       title: 'Research Data Management Course',
-      body: `DEIC, the Danish E-Infrastructure Cooperation, features an online course developed by the Danish universities about
+      body: `DEIC, the Danish E-Infrastructure Cooperation, features an online course developed by the Danish Universities about
         <a href="https://vidensportal.deic.dk/RDMElearn" target="_blank">the importance of good research data management</a>.
         The three video modules give an introduction to (Research) Data Management and the data life cycle, cover the Fair Principles
         and open data, and highlight the role of data management plans in research projects.
