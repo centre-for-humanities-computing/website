@@ -11,7 +11,7 @@ const state = {
     {
       title: 'We Aim for Excellence',
       body: `
-The <a href="#/people"><em>Center for Humanities Computing Aarhus (CHCAA)</em></a> is the spearhead of computationally empowered
+The <a href="#/people"><em>Centre for Humanities Computing Aarhus (CHCAA)</em></a> is the spearhead of computationally empowered
 humanities research at Aarhus University. We adopt, research and develop tomorrow's data-driven methodologies, tools, and synergies.
 Our aim is to provide humanities research with relevant, efficient, and usable computational tools and resources. Whether you need help with
 project design, data management, or analytics, we are here to support you. We believe that software should promote, not prevent, open, human-centered
@@ -37,11 +37,11 @@ tailored to their specific needs. Moreover, we also provide research groups with
     {
       title: 'Global Network Partners',
       body: `
-CHCAA has strong ties with international research groups that explore the cultural information space algorithmically.
-Currently we are collaborating with groups from North America, Europe, and China on multiple transdisciplinary research projects.
+CHCAA has strong ties with international researcher groups that explore the cultural information space algorithmically.
+Currently we are collaborting with groups from North America, Europe, and China on multiple transdisciplinary research projects.
 We are happy to serve as an entry point to this network and include your project as new node. For external partners and stakeholders,
-we can connect you with the researchers at Aarhus University that match your particular needs and preferences. On the infrastructural
-side, we collaborate with eScience and data providers (e.g., compute centers and national libraries) and Digital Humanities infrastructures
+we can connect you with the researchers at Aarhus University that matches your particular needs and preferences. On the infrastructural
+side we collaborate with eScience and data providers (e.g., compute centers and national libraries) and Digital Humanities infrastructures
 both nationally (e.g., Royal Library Denmark, Danish eInfrastructure Cooperation, DigHumLab) and internationally (Nordic e-Infrastructure
 Collaboration, Nordic Digital Humanities Laboratory).
 `,
