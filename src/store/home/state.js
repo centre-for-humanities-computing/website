@@ -24,12 +24,12 @@ and adaptive research processes. Therefore, we take pride in developing custom s
       title: 'Competency Development',
       body: `
 We acquire, research, and develop state-of-the-art technologies, methodologies, and best practices for research
-in digital data in the humanities. The <em>CHCAA</em> maintains a working pipeline to produce the best
-learning material for you to acquire relevant cutting edge technologies in a humane format. We have extensive experience with development of
-digital and computational competencies (or literacy) in the humanities. We are also involved in serveral initiatives (The Carpentries and CodeRefinery)
-that promote good programming practice and software development for research irrespective of faculty.  These initiatives aim to help researchers to get their work done
-in less time and with less pain by teaching them how to write better code and provide research groups with software development e-infrastructure
-tools to collaboratively develop, review, discuss, test, and share their codes.
+in digital data in the humanities. The CHCAA maintains a working pipeline to produce the best
+material for you to acquire relevant cutting edge technologies in a humane format. We have extensive experience with development of
+digital and computational literacy in the humanities. We are also involved in several initiatives - such as <a href= https://software-carpentry.org/><em>The Carpentries</em></a> and <a href= https://coderefinery.org/><em>Code Refinery</em></a> - 
+that promote good programming practice and software development for academic research, irrespective of faculty.  
+These initiatives aim to help researchers work both faster and more efficiently by teaching them better programming, 
+tailored to their specific needs. Moreover, we also provide research groups with software development e-infrastructure tools to collaboratively develop, review, discuss, test, and share their codes.
 `,
       src: 'HD_marvin-meyer-571072-unsplash.jpg',
       tag: 'competencyDevelopment'
