@@ -11,7 +11,7 @@ const state = {
     {
       title: 'We Aim for Excellence',
       body: `
-The <a href="#/people"><em>Centre for Humanities Computing Aarhus (CHCAA)</em></a> is the spearhead of computationally empowered
+The <a href="#/people"><em>Center for Humanities Computing Aarhus (CHCAA)</em></a> is the spearhead of computationally empowered
 humanities research at Aarhus University. We adopt, research and develop tomorrow's data-driven methodologies, tools, and synergies.
 Our aim is to provide humanities research with relevant, efficient, and usable computational tools and resources. Whether you need help with
 project design, data management, or analytics, we are here to support you. We believe that software should promote, not prevent, open, human-centered
