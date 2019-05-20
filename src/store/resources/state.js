@@ -1,13 +1,27 @@
 const state = {
   slides: [
     {
+      title: 'Code Refinery Course in Aalborg, June 11-13',
+      body: '<a href="https://coderefinery.org/workshops/2019-06-11-aalborg/" target="_blank">Read more and register here</a>',
+      src: '400_2019-06-11-aalborg.png',
+      tag: 'course'
+    }, {
       title: 'Resources',
-      body: 'This section hosts a few early practical tools and links',
+      body: 'This section hosts practical tools and links',
       src: 'HD_barn-images-12223-unsplash.jpg',
       tag: 'competency'
     }
   ],
   cards: [
+    {
+      title: 'Code Refinery Workshop in Aalborg, June 11-13',
+      body: `
+        Research Software Engineering Course by CodeRefinery held in Aalborg June 11-13 (<a href="poster_aalborg_june2019.png" target="_blank">poster</a>). The course is about skill development and best tools and practices. Lessons are held in code-along style and materials are available online.
+        <a href="https://coderefinery.org/workshops/2019-06-11-aalborg/" target="_blank">Read more and register here</a>
+        `,
+      src: 'HD_poster_aalborg_june2019.png',
+      tag: 'competency'
+    },
     {
       title: 'Research Data Management Course',
       body: `DEIC the Danish E-Infrastructure Cooperation features an online course developed by the Danish Universities about
