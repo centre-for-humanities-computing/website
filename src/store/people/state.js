@@ -9,7 +9,7 @@ const state = {
   ],
   cards: [
     {
-      title: 'Professor',
+      title: 'Associate Professor',
       gender: 'm',
       functions: ['Managing Director', 'Code Refinery Board Member', 'Software Carpentry Instructor'],
       name: 'Kristoffer L. Nielbo',
@@ -40,7 +40,7 @@ const state = {
       ]
     },
     {
-      title: 'Lector',
+      title: 'Studielector',
       gender: 'm',
       functions: ['Data Services and Hosting'],
       name: 'Peter B. Vahlstrup',
