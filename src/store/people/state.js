@@ -40,7 +40,7 @@ const state = {
       ]
     },
     {
-      title: 'Studielector',
+      title: 'Studielektor',
       gender: 'm',
       functions: ['Data Services and Hosting'],
       name: 'Peter B. Vahlstrup',
