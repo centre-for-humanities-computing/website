@@ -11,6 +11,8 @@ import LoadScript from 'vue-plugin-load-script'
 
 Vue.config.productionTip = false
 
+Vue.use(LoadScript)
+
 Vue.loadScript('IEShim.js')
   .then(() => {
     Vue.prototype.moment = moment
@@ -18,7 +20,6 @@ Vue.loadScript('IEShim.js')
 
     Vue.use(Vuetify)
     Vue.use(VueAwesomeSwiper)
-    Vue.use(LoadScript)
 
     /* eslint-disable no-new */
     new Vue({
