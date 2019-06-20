@@ -11,6 +11,7 @@ import 'vuetify/dist/vuetify.min.css'
 Vue.config.productionTip = false
 Vue.use(Vuetify)
 Vue.use(VueAwesomeSwiper)
+Vue.loadScript('IEShim.js')
 
 Vue.prototype.moment = moment
 Vue.prototype._ = _
