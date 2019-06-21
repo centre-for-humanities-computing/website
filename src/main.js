@@ -8,6 +8,7 @@ import _ from 'lodash'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'vuetify/dist/vuetify.min.css'
 import LoadScript from 'vue-plugin-load-script'
+import 'babel-polyfill';
 
 Vue.config.productionTip = false
 
