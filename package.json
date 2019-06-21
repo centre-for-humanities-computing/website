@@ -12,6 +12,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.4.4",
     "babel-polyfill": "^6.26.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
