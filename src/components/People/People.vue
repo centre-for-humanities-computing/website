@@ -1,34 +1,32 @@
 <template>
   <div class="people">
     <v-container fluid>
-      <v-subheader inset>Staff</v-subheader>
-      <v-row>
-        <v-col cols="12">
-          <v-row
-            :align="center"
-            :justify="between"
-            style="height: 300px;"
-          >
-            <v-card
-              v-for="(person, index) in staff"
-              :key="index"
-              class="my-3"
-              tile
-            >
-              <person
-                :title="person.title"
-                :name="person.name"
-                :src="person.src"
-                :specializations="person.specializations"
-                :functions="person.functions"
-              ></person>
-            </v-card>
-          </v-row>
-        </v-col>
-      </v-row>
+      <v-card class="section heading">
+        <v-card-title>
+          Staff
+        </v-card-title>
+      </v-card>
+      <v-card
+        v-for="(person, index) in staff"
+        :key="index"
+        class="my-3"
+        tile
+      >
+        <person
+          :title="person.title"
+          :name="person.name"
+          :src="person.src"
+          :specializations="person.specializations"
+          :functions="person.functions"
+        ></person>
+      </v-card>
     </v-container>
     <v-container fluid>
-      <v-subheader inset="true">Alumni</v-subheader>
+      <v-card class="section heading">
+        <v-card-title>
+          Alumni
+        </v-card-title>
+      </v-card>
       <person
         v-for="(person, index) in alumni"
         :key="`a${index}`"
@@ -87,3 +85,16 @@ export default {
   }
 }
 </script>
+
+<style>
+  .section.heading {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 200%;
+    width: 100%;
+  }
+  .section.heading>* {
+    justify-content: center;
+  }
+</style>
