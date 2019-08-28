@@ -9,16 +9,6 @@ Vue.use(Router)
 const router = new Router({
   routes: [
     {
-      path: '/join',
-      name: 'join',
-      component: () => import('../components/Auth/Join.vue')
-    },
-    {
-      path: '/signin',
-      name: 'signin',
-      component: () => import('../components/Auth/SignIn.vue')
-    },
-    {
       path: '/',
       name: 'home',
       component: Home

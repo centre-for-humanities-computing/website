@@ -108,7 +108,6 @@
           </template>
         </v-toolbar-items>
       <v-spacer></v-spacer>
-      <auth v-if="false"></auth>
     </v-toolbar>
     <v-navigation-drawer
         :value="drawer"
@@ -136,7 +135,6 @@
 </template>
 
 <script>
-import Auth from './Auth/Auth'
 export default {
   name: 'Navigation',
   data() {
@@ -186,9 +184,6 @@ export default {
       this.drawer = false
       this.$router.push(url)
     }
-  },
-  components: {
-    Auth
   },
   mounted() {
     const vm = this

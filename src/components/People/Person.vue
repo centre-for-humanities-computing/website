@@ -1,5 +1,5 @@
 <template>
-  <v-card class="person">
+  <v-card class="person" :color="color">
     <v-layout row>
       <v-flex xs3 lg2>
         <v-card-title primary-title>
@@ -67,6 +67,10 @@ export default {
     },
     functions: {
       type: Array
+    },
+    color: {
+      type: String,
+      default: 'white'
     }
   },
   computed: {
