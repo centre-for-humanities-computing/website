@@ -109,7 +109,7 @@ const state = {
     {
       title: 'MA',
       gender: 'f',
-      functions: ['Intern'],
+      functions: ['Intern', 'Alumna'],
       name: 'Anne Sophie Kyng',
       src: 'anne_light.png',
       specializations: [
