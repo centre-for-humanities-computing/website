@@ -107,6 +107,19 @@ const state = {
       ]
     },
     {
+      title: 'Student',
+      gender: 'm',
+      functions: ['Programmer'],
+      name: 'Lasse Hansen',
+      src: 'lasse.png',
+      specializations: [
+        'Python',
+        'R',
+        'Statistical and Predictive Modelling',
+        'Natural Language Processing'
+      ]
+    },
+    {
       title: 'MA',
       gender: 'f',
       functions: ['Intern', 'Alumna'],
