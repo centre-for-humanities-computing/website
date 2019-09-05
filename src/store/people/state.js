@@ -133,7 +133,7 @@ const state = {
     {
       title: 'Student',
       gender: 'f',
-      functions: ['Programmer', '*Techno Philosopher*'],
+      functions: ['Programmer'],
       name: 'Ida Marie S. Lassen',
       src: 'idamarie_small.png',
       specializations: [
