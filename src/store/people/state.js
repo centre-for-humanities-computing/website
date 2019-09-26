@@ -55,7 +55,7 @@ const state = {
       ]
     },
     {
-      title: 'PhD Student',
+      title: 'PhD',
       gender: 'm',
       functions: ['Research Software Engineer'],
       name: 'Ross D. Kristensen-McLachlan',
