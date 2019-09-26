@@ -141,6 +141,19 @@ const state = {
         'Java',
         'Swift'
       ]
+    },
+    {
+      title: 'Student',
+      gender: 'f',
+      functions: ['Programmer'],
+      name: 'Maris Sala',
+      src: 'maris.png',
+      specializations: [
+        'R',
+        'Python',
+        'NLP',
+        'interested in Machine Learning and Neural Networks'
+      ]
     }
   ]
 }
