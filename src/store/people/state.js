@@ -31,12 +31,12 @@ const state = {
       src: 'meSmall.png',
       specializations: [
         'Full Stack Web Development',
-        'Cloud Computing',
         'Distributed Systems',
-        'Embedded Software',
+        'Deep Software Innovation',
         'Generative Programming',
         'Interaction Research',
-        'Crowd Innovation'
+        'Crowd Innovation',
+        'Smart Contracts and Crypto Currency Design'
       ]
     },
     {
