@@ -22,7 +22,7 @@ const state = {
         Research Software Engineering Course by CodeRefinery held in Aarhus November 26-28 (<a href="poster_HighRes_Aarhus.png" target="_blank">poster</a>). The course is about skill development and best tools and practices. Lessons are held in code-along style and materials are available online.
         <a href="https://coderefinery.org/workshops/2019-11-26-aarhus/" target="_blank">Read more and register here</a>
         `,
-      src: '400_CR_WS_Aarhus.png',
+      src: 'codeRefinery.jpg',
       tag: 'competency'
     },
     {
