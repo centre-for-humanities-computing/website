@@ -83,6 +83,17 @@ const state = {
       ]
     },
     {
+      title: 'PhD Student',
+      gender: 'f',
+      functions: ['Visiting Researcher'],
+      name: 'Frederica Bologna',
+      src: 'frederica.png',
+      specializations: [
+        'Distant Reading',
+        'Python',
+      ]
+    },
+    {
       title: 'Student',
       gender: 'm',
       functions: ['Programmer'],
