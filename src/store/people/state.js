@@ -82,6 +82,18 @@ const state = {
         'R'
       ]
     },
+    {
+      title: 'Student',
+      gender: 'm',
+      functions: ['Programmer'],
+      name: 'Jan Kostkan',
+      src: 'janko.png',
+      specializations: [
+        'R',
+        'Python',
+        'Statistical Modelling',
+        'Natural Language Processing',
+        'Corpus Linguistics'
       ]
     },
     {
