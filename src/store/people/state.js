@@ -82,6 +82,8 @@ const state = {
         'R'
       ]
     },
+      ]
+    },
     {
       title: 'PhD Student',
       gender: 'f',
