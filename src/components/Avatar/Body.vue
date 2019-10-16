@@ -1,23 +1,15 @@
 <template>
   <v-layout full-height fluid>
     <v-flex xs12>
-      <v-card-text>
-        <div class="heading">
-          <h2
-              class="title"
-              v-html="title"></h2>
-          <div v-if="subtitle">
-            <em
-              class="subtitle"
-              v-html="subtitle"></em>
+      <v-card>
+        <v-card-title>
+          <div class="heading">
+            <h2 v-html="title"></h2>
+            <em v-if="subtitle" v-html="subtitle"></em>
           </div>
-        </div>
-        <p
-          mt-4
-          class="body"
-          v-html="body"
-        ></p>
-      </v-card-text>
+        </v-card-title>
+        <v-card-text v-html="body"/>
+    </v-card>
     </v-flex>
   </v-layout>
 </template>
@@ -40,3 +32,9 @@ export default {
   }
 }
 </script>
+<style scoped>
+  .v-card {
+    box-shadow: none!important;
+    border: none!important;
+  }
+</style>

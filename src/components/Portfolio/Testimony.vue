@@ -3,42 +3,22 @@
     <v-flex xs12>
       <v-card>
         <v-layout
-          v-if="imageLeft"
           row
-        >
-          <v-flex xs3>
+          :class="{B: index % 2}">
+          <v-flex xs3 class="avatar">
             <v-card-title primary-title>
               <a-badge
-                :src="src"
-                size="100%"
+                :src="testimony.src"
+                :size="220"
               ></a-badge>
             </v-card-title>
           </v-flex>
-          <v-flex xs9>
+          <v-flex xs9 class="quote">
             <a-body
-              :title="name"
-              :subtitle="role"
-              :body="text"
+              :title="testimony.author"
+              :subtitle="testimony.association"
+              :body="body"
             ></a-body>
-          </v-flex>
-        </v-layout>
-        <v-layout
-          v-else
-          row
-        >
-          <v-flex xs9>
-            <a-body
-              :title="name"
-              :subtitle="role"
-              :body="text"
-            ></a-body>
-          </v-flex>
-          <v-flex xs3>
-            <v-card-title primary-title>
-              <a-badge
-                :src="src"
-                size="100%"></a-badge>
-            </v-card-title>
           </v-flex>
         </v-layout>
       </v-card>
@@ -51,29 +31,18 @@ import { ABadge, ABody } from '../Avatar'
 export default {
   name: 'Testimony',
   props: {
+    testimony: {
+      type: Object,
+      required: true
+    },
     index: {
       type: Number,
-      required: true
-    },
-    name: {
-      type: String,
-      required: true
-    },
-    role: {
-      type: String,
-      required: true
-    },
-    src: {
-      type: String
-    },
-    text: {
-      type: String,
-      required: true
+      default: 0
     }
   },
   computed: {
-    imageLeft() {
-      return this.index % 2
+    body() {
+      return `<p>${this.testimony.quote || ''}</p><p class="tags">${this.testimony.tags.join(' | ')}</p>`
     }
   },
   components: {
@@ -82,3 +51,24 @@ export default {
   }
 }
 </script>
+<style scoped>
+  .v-card {
+    font-size: 140%!important;
+  }
+  .quote {
+    order: 1
+  }
+  .avatar {
+    order: 2
+  }
+  .B .avatar {
+    order: 1
+  }
+  .B .quote {
+    order: 2
+  }
+  .tags {
+    font-size: 90%!important;
+    font-style: italic!important;
+  }
+</style>

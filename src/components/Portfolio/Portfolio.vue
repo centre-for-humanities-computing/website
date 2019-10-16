@@ -4,10 +4,7 @@
       v-for="(testimony, index) in testimonials"
       :key="'t' + index"
       :index="index"
-      :name="testimony.name"
-      :role="testimony.role"
-      :text="testimony.text"
-      :src="testimony.src"
+      :testimony="testimony"
     ></testimony>
   </div>
 </template>
