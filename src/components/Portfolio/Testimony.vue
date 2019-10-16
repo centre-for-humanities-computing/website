@@ -5,11 +5,16 @@
         <v-layout
           row
           :class="{B: index % 2}">
-          <v-flex xs3 class="avatar">
+          <v-flex
+            xs3
+            class="avatar"
+            align-center
+            justify-center
+          >
             <v-card-title primary-title>
               <a-badge
                 :src="testimony.src"
-                :size="220"
+                :size="avatarSize"
               ></a-badge>
             </v-card-title>
           </v-flex>
@@ -43,6 +48,11 @@ export default {
   computed: {
     body() {
       return `<p>${this.testimony.quote || ''}</p><p class="tags">${this.testimony.tags.join(' | ')}</p>`
+    },
+    avatarSize () {
+      const width = this.$store.state.box.sceneWidth
+      console.log(width)
+      return width < 1600 ? width / 5 : 400
     }
   },
   components: {
@@ -52,8 +62,10 @@ export default {
 }
 </script>
 <style scoped>
-  .v-card {
-    font-size: 140%!important;
+  @media only screen (min-width: 768px) {
+    .v-card {
+      font-size: 140% !important;
+    }
   }
   .quote {
     order: 1
