@@ -26,6 +26,31 @@ const state = {
       tag: 'competency'
     },
     {
+      title: 'How to Handle Sensitive Research Data?',
+      body: `
+        Use <a href="https://dmponline.deic.dk/">DMPOnline.DeiC.dk</a> to write a data management plan.
+        <ul>
+          <li>
+            Order <a href="https://medarbejdere.au.dk/en/administration/it/data-storage/how-to-order-a-shared-folder/" target="_blank">
+            a personal network drive</a>...
+          </li>
+          <li>
+            ...by listing access permissions in <a href="https://medarbejdere.au.dk/fileadmin/www.medarbejdere.au.dk/Medarbejderservice/IT/Medarbejderservice_AU_IT/Faelles_filservice__Faellesdrev_/Bestillingsseddel_deltfolder_ver.9.xlsx" target="_blank">
+            this excel sheet</a>
+            and attaching it in an email to <a href="https://medarbejdere.au.dk/en/administration/it/contact-it-support/" target="_blank">
+            your IT department</a> requesting the personal network drive.
+        </li>
+          <li>
+            Once the drive is ready, <a href="https://medarbejdere.au.dk/en/administration/it/data-storage/personal-folder-access/" target="_blank">
+            here is how to access it</a>.
+          </li>
+        </ul>
+        Read more about these tools and procedures in <a href="https://medarbejdere.au.dk/en/informationsecurity/data-protection/general-information/storing-personal-data/" target="_blank">
+        the official AU guidelines</a>.`,
+      src: 'sensitiveData.jpg',
+      tag: 'sensitiveData'
+    },
+    {
       title: 'Research Data Management Course',
       body: `DEIC the Danish E-Infrastructure Cooperation features an online course developed by the Danish Universities about
         <a href="https://vidensportal.deic.dk/RDMElearn" target="_blank">the importance of good research data management</a>.
