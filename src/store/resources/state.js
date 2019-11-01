@@ -39,7 +39,7 @@ const state = {
             Write an email to <a href="https://medarbejdere.au.dk/en/administration/it/contact-it-support/" target="_blank">
             your IT department</a> requesting the personal network drive. 
             You need to attach <a href="https://medarbejdere.au.dk/fileadmin/www.medarbejdere.au.dk/Medarbejderservice/IT/Medarbejderservice_AU_IT/Faelles_filservice__Faellesdrev_/Bestillingsseddel_deltfolder_ver.9.xlsx" target="_blank">
-            this excel sheet </a> listing who should have access permissions to the sensitive data.
+            this excel sheet</a> listing who should have access permissions to the sensitive data.
         </li>
           <li>
             Once the drive is ready, <a href="https://medarbejdere.au.dk/en/administration/it/data-storage/personal-folder-access/" target="_blank">
