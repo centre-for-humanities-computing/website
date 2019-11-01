@@ -19,7 +19,8 @@ const state = {
     {
       title: 'Code Refinery Workshop in Aarhus, November 26-28',
       body: `
-        Research Software Engineering Course by CodeRefinery held in Aarhus November 26-28 (<a href="poster_HighRes_Aarhus.png" target="_blank">poster</a>). The course is about skill development and best tools and practices. Lessons are held in code-along style and materials are available online.
+        Research Software Engineering Course by CodeRefinery held in Aarhus November 26-28 (<a href="poster_HighRes_Aarhus.png" target="_blank">poster</a>). 
+        The course is about skill development and best tools and practices. Lessons are held in code-along style and materials are available online.
         <a href="https://coderefinery.org/workshops/2019-11-26-aarhus/" target="_blank">Read more and register here</a>
         `,
       src: 'codeRefinery.jpg',
@@ -28,17 +29,17 @@ const state = {
     {
       title: 'How to Handle Sensitive Research Data?',
       body: `
-        Use <a href="https://dmponline.deic.dk/">DMPOnline.DeiC.dk</a> to write a data management plan.
+        Use <a href="https://dmponline.deic.dk/" target="_blank">DMPOnline.DeiC.dk</a> to write a data management plan.
         <ul>
           <li>
             Order <a href="https://medarbejdere.au.dk/en/administration/it/data-storage/how-to-order-a-shared-folder/" target="_blank">
-            a personal network drive</a>...
+            a personal network drive</a>
           </li>
           <li>
-            ...by listing access permissions in <a href="https://medarbejdere.au.dk/fileadmin/www.medarbejdere.au.dk/Medarbejderservice/IT/Medarbejderservice_AU_IT/Faelles_filservice__Faellesdrev_/Bestillingsseddel_deltfolder_ver.9.xlsx" target="_blank">
-            this excel sheet</a>
-            and attaching it in an email to <a href="https://medarbejdere.au.dk/en/administration/it/contact-it-support/" target="_blank">
-            your IT department</a> requesting the personal network drive.
+            Write an email to <a href="https://medarbejdere.au.dk/en/administration/it/contact-it-support/" target="_blank">
+            your IT department</a> requesting the personal network drive. 
+            You need to attach <a href="https://medarbejdere.au.dk/fileadmin/www.medarbejdere.au.dk/Medarbejderservice/IT/Medarbejderservice_AU_IT/Faelles_filservice__Faellesdrev_/Bestillingsseddel_deltfolder_ver.9.xlsx" target="_blank">
+            this excel sheet </a> listing who should have access permissions to the sensitive data.
         </li>
           <li>
             Once the drive is ready, <a href="https://medarbejdere.au.dk/en/administration/it/data-storage/personal-folder-access/" target="_blank">
