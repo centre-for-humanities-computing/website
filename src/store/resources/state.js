@@ -7,6 +7,7 @@ const state = {
       src: '400_CR_WS_Aarhus.png',
       tag: 'course'
     },
+    */
     {
       title: 'Resources',
       body: 'This section hosts practical tools and links',
