@@ -112,7 +112,7 @@ const state = {
       gender: 'm',
       functions: ['Programmer'],
       name: 'Oliver S. Jarvis',
-      src: 'oliverbw.png',
+      src: 'oliver.png',
       specializations: [
         'Python',
         'R',
