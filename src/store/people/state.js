@@ -133,6 +133,17 @@ const state = {
     },
     {
       title: 'Student',
+      gender: 'f',
+      functions: ['Programmer'],
+      name: 'Frida Hæstrup',
+      src: 'frida.png',
+      specializations: [
+        'R',
+        'Statistical Modeling',
+      ]
+    },
+    {
+      title: 'Student',
       gender: 'm',
       functions: ['Programmer'],
       name: 'Lasse Hansen',
