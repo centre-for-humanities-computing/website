@@ -34,7 +34,7 @@ const state = {
         Use <a href="https://dmponline.deic.dk/" target="_blank">DMPOnline.DeiC.dk</a> to write a data management plan.
         <ul>
           <li>
-            Order <a href="https://medarbejdere.au.dk/en/administration/it/data-storage/how-to-order-a-shared-folder/" target="_blank">
+            Order <a href="https://medarbejdere.au.dk/en/administration/it/guides/datastorage/how-to-order-a-shared-folder/" target="_blank">
             a personal network drive</a>
           </li>
           <li>
