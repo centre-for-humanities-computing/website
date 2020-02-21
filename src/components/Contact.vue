@@ -65,7 +65,7 @@ export default {
   name: 'Contact',
   data() {
     return {
-      targetAddress: 'kln@cas.au.dk',
+      formspreeFormId: 'mbjyrvpr',
       valid: false,
       name: '',
       nameRules: [
@@ -85,7 +85,7 @@ export default {
   },
   computed: {
     contactUrl() {
-      return `https://formspree.io/${this.targetAddress}`
+      return `https://formspree.io/${this.formspreeFormId}`
     }
   }
 }

@@ -9,22 +9,22 @@ const state = {
   ],
   cards: [
     {
-      title: 'Associate Professor',
+      title: 'Associate Professor (Chair)',
       gender: 'm',
-      functions: ['Managing Director', 'Code Refinery Board Member', 'Software Carpentry Instructor'],
+      functions: ['Code Refinery Board Member', 'Software Carpentry Instructor'],
       name: 'Kristoffer L. Nielbo',
       src: 'kristofferSmall.png',
       specializations: [
         'Statistical Modelling',
         'Machine Learning',
         'Python',
-        'R',
         'Julia',
+        'MatLab',
         'Data Analysis'
       ]
     },
     {
-      title: 'PhD',
+      title: 'PhD (Senior Developer)',
       gender: 'm',
       functions: ['Research Software Engineer', 'Instructor for Software Carpentry and Code Refinery'],
       name: 'Max R. Eckardt',
@@ -40,7 +40,7 @@ const state = {
       ]
     },
     {
-      title: 'Developer',
+      title: 'Senior Developer',
       gender: 'm',
       functions: ['Data Services and Hosting'],
       name: 'Peter B. Vahlstrup',
@@ -55,7 +55,7 @@ const state = {
       ]
     },
     {
-      title: 'PhD',
+      title: 'PhD (Senior Developer)',
       gender: 'm',
       functions: ['Research Software Engineer'],
       name: 'Ross D. Kristensen-McLachlan',
@@ -70,7 +70,7 @@ const state = {
       ]
     },
     {
-      title: 'Student',
+      title: 'Junior Developer',
       gender: 'm',
       functions: ['Programmer'],
       name: 'Kenneth Enevoldsen',
@@ -83,7 +83,7 @@ const state = {
       ]
     },
     {
-      title: 'Student',
+      title: 'Junior Developer',
       gender: 'm',
       functions: ['Programmer'],
       name: 'Jan Kostkan',
@@ -99,7 +99,7 @@ const state = {
     {
       title: 'PhD Student',
       gender: 'f',
-      functions: ['Visiting Researcher'],
+      functions: ['Visiting Researcher', 'alumna'],
       name: 'Frederica Bologna',
       src: 'frederica.png',
       specializations: [
@@ -108,7 +108,7 @@ const state = {
       ]
     },
     {
-      title: 'Student',
+      title: 'Junior Developer',
       gender: 'm',
       functions: ['Programmer'],
       name: 'Oliver S. Jarvis',
@@ -121,7 +121,7 @@ const state = {
       ]
     },
     {
-      title: 'Student',
+      title: 'Junior Developer',
       gender: 'm',
       functions: ['Programmer'],
       name: 'Henning Holm',
@@ -132,18 +132,44 @@ const state = {
       ]
     },
     {
-      title: 'Student',
+      title: 'Junior Developer',
       gender: 'f',
-      functions: ['Programmer'],
+      functions: ['Lab Manager'],
       name: 'Frida Hæstrup',
       src: 'frida.png',
       specializations: [
         'R',
         'Statistical Modeling',
+        'Project Development'
       ]
     },
     {
-      title: 'Student',
+      title: 'PhD Student',
+      gender: 'f',
+      functions: ['Lab Manager'],
+      name: 'Anne Agersnap',
+      src: 'anneA.png',
+      specializations: [
+        'Project Development'
+      ]
+    },
+    {
+      title: 'Junior Developer',
+      gender: 'f',
+      functions: ['Programmer'],
+      name: 'Anita Kurm',
+      src: 'anita.png',
+      specializations: [
+        'Python',
+        'R',
+        'Data Science',
+        'Machine Learning',
+        'Natural Language Analysis',
+        'Big Data',
+      ]
+    },
+    {
+      title: 'Junior Developer',
       gender: 'm',
       functions: ['Programmer'],
       name: 'Lasse Hansen',
@@ -167,9 +193,9 @@ const state = {
       ]
     },
     {
-      title: 'Student',
+      title: 'Junior Developer',
       gender: 'f',
-      functions: ['Programmer'],
+      functions: ['Programmer', 'Alumna'],
       name: 'Ida Marie S. Lassen',
       src: 'idamarie_small.png',
       specializations: [
@@ -179,7 +205,7 @@ const state = {
       ]
     },
     {
-      title: 'Student',
+      title: 'Junior Developer',
       gender: 'f',
       functions: ['Programmer'],
       name: 'Maris Sala',
