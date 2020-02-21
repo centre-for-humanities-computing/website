@@ -43,10 +43,12 @@
 
 <script>
 import Person from './Person'
-function groupGenders(list) {
-  list.sort((a, b) => (a.gender > b.gender) ? 1 : -1)
-  return list
-}
+/*
+  function groupGenders(list) {
+    list.sort((a, b) => (a.gender > b.gender) ? 1 : -1)
+    return list
+  }
+*/
 function shuffle(a) {
   for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
