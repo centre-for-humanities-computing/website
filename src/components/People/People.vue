@@ -67,7 +67,7 @@ export default {
       get() {
         let cards = this.$store.state.people.cards.filter(staff)
         shuffle(cards)
-        groupGenders(cards)
+        // groupGenders(cards)
         return cards
       }
     },
@@ -75,7 +75,7 @@ export default {
       get() {
         let cards = this.$store.state.people.cards.filter(alumni)
         shuffle(cards)
-        groupGenders(cards)
+        // groupGenders(cards)
         return cards
       }
     }
