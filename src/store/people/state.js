@@ -99,7 +99,7 @@ const state = {
     {
       title: 'PhD Student',
       gender: 'f',
-      functions: ['Visiting Researcher', 'alumna'],
+      functions: ['Visiting Researcher', 'Alumna'],
       name: 'Frederica Bologna',
       src: 'frederica.png',
       specializations: [
