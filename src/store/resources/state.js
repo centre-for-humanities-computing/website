@@ -39,12 +39,12 @@ const state = {
           </li>
           <li>
             Write an email to <a href="https://medarbejdere.au.dk/en/administration/it/contact-it-support/" target="_blank">
-            your IT department</a> requesting the personal network drive. 
-            You need to attach <a href="https://medarbejdere.au.dk/fileadmin/www.medarbejdere.au.dk/Medarbejderservice/IT/Medarbejderservice_AU_IT/Faelles_filservice__Faellesdrev_/Bestillingsseddel_deltfolder_ver.9.xlsx" target="_blank">
+            your IT department</a> requesting the personal network drive.
+            You need to attach <a href="http://medarbejdere.au.dk/fileadmin/user_upload/Bestillingsseddel_deltfolder_ver.6.xlsx" target="_blank">
             this excel sheet</a> listing who should have access permissions to the sensitive data.
         </li>
           <li>
-            Once the drive is ready, <a href="https://medarbejdere.au.dk/en/administration/it/data-storage/personal-folder-access/" target="_blank">
+            Once the drive is ready, <a href="https://medarbejdere.au.dk/en/administration/it/guides/datastorage/personal-folder-access/" target="_blank">
             here is how to access it</a>.
           </li>
         </ul>
@@ -86,7 +86,7 @@ const state = {
       title: 'Data Analysis with Jupyter Notebooks',
       body: `
         <a href="https://www.youtube.com/watch?v=Z-T76FQavig&list=PLzmqDzBWP43RxUN39mFip5nWsxlxEoV0J" target="_blank">This video course</a> by the Datakuben project uses the <a href="https://github.com/digitaltxtlab/CLEAR" target="_blank">Computational Literary Repository (CLEAR)</a> to show learners first steps into data analysis with texts.
-        The course covers installation of <a href="https://jupyter.org/" target="_blank">Jupyter notebooks</a> as part of <a href="https://www.anaconda.com/distribution/" target="_blank">Anaconda</a>, 
+        The course covers installation of <a href="https://jupyter.org/" target="_blank">Jupyter notebooks</a> as part of <a href="https://www.anaconda.com/distribution/" target="_blank">Anaconda</a>,
         a gentle introduction to its features, and an introduction to data analysis basics as featured by the notebooks in the repository.
       `,
       src: 'jupyter_playlist.png',
@@ -95,9 +95,9 @@ const state = {
     {
       title: 'Text Analysis with Voyant Tools',
       body: `
-        This Datakuben video course on <a href="https://voyant-tools.org/docs/#!/guide/start" target="_blank">Voyant Tools</a> starts out by describing how to install a local Voyant server for 
-        <a href="https://www.youtube.com/watch?v=4urg_apOoJY&list=PLzmqDzBWP43Rsd2jctidmjfkNAsR4NTAu" target="_blank">mac OS X</a> and <a href="https://www.youtube.com/watch?v=8e7M8NqGyF4&list=PLzmqDzBWP43QrknrraIcf9Dd7HY9or3dz" target="_blank">windows</a> users respectively. 
-        The course then continues with by covering <a href="https://www.youtube.com/watch?v=M7UgSJmWHKM&list=PLzmqDzBWP43RDUE6St-51PnXBG2J7shbN" target="_blank">a selection of text operations with Voyant tools</a>. 
+        This Datakuben video course on <a href="https://voyant-tools.org/docs/#!/guide/start" target="_blank">Voyant Tools</a> starts out by describing how to install a local Voyant server for
+        <a href="https://www.youtube.com/watch?v=4urg_apOoJY&list=PLzmqDzBWP43Rsd2jctidmjfkNAsR4NTAu" target="_blank">mac OS X</a> and <a href="https://www.youtube.com/watch?v=8e7M8NqGyF4&list=PLzmqDzBWP43QrknrraIcf9Dd7HY9or3dz" target="_blank">windows</a> users respectively.
+        The course then continues with by covering <a href="https://www.youtube.com/watch?v=M7UgSJmWHKM&list=PLzmqDzBWP43RDUE6St-51PnXBG2J7shbN" target="_blank">a selection of text operations with Voyant tools</a>.
       `,
       src: 'voyant_playlist.png',
       tag: 'voyant'
