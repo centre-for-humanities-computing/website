@@ -124,6 +124,22 @@ const state = {
       title: 'Junior Developer',
       gender: 'm',
       functions: ['Programmer'],
+      name: 'Esben S. Jarvis',
+      src: 'esben.png',
+      specializations: [
+        'Data Visualization',
+        'Data Science',
+        'Python',
+        'JavaScript',
+        'R',
+        'Natural-Language Processing',
+        'interested in Machine Learning and Neural Networks'
+      ]
+    },
+    {
+      title: 'Junior Developer',
+      gender: 'm',
+      functions: ['Programmer'],
       name: 'Henning Holm',
       src: 'henning.png',
       specializations: [
