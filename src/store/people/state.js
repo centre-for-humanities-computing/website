@@ -124,7 +124,7 @@ const state = {
       title: 'Junior Developer',
       gender: 'm',
       functions: ['Programmer'],
-      name: 'Esben Kran Frederiksen',
+      name: 'Esben Kran Christensen',
       src: 'esben.png',
       specializations: [
         'Data Visualization',
