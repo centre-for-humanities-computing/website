@@ -6,6 +6,13 @@ const state = {
       `,
       src: '400_rawpixel-983726-unsplash.jpg',
       tag: 'digitalLiteracy'
+    },
+    {
+      title: 'HOPE Project',
+      body: `How Democracies Cope with COVID-19: A Data-Driven Approach
+      `,
+      src: '400_rawpixel-983726-unsplash.jpg',
+      tag: 'HOPE'
     }
 
   ],
@@ -20,6 +27,28 @@ const state = {
       where each researcher develop their specific research project with technical support from CHCAA.`,
     }, */
     {
+      author: 'Michael Bang Petersen',
+      src: '',
+      jobTitle: 'Associate Professor',
+      association: 'Political Science',
+      quote: 'some text',
+      icon: 'fas fa-music',
+      tags: [
+        'something',
+        'something else'
+      ]
+    }, {
+      author: 'Andreas Roepstorff',
+      src: '',
+      jobTitle: 'Professor',
+      association: 'Interactive Minds Centre',
+      quote: 'some text',
+      icon: 'fas fa-music',
+      tags: [
+        'something',
+        'something else'
+      ]
+    }, {
       author: 'Iben Have',
       src: 'Iben_Have.png',
       jobTitle: 'Associate Professor',
