@@ -2,20 +2,39 @@
 
 > generates static vue app into ./docs to be served with github pages at https://centre-for-humanities-computing.github.io/website/
 
-## Build Setup
+## Setup and Maintenance
 
-``` bash
+### Build Setup
+
+setup project
+```shell script
 # install dependencies
+cd /home/au631999/website
 npm install
+```
 
+### develop locally
+```shell script
 # serve with hot reload at localhost:8080
+cd ./website
 npm run dev
+```
 
+### update production build
+```shell script
+cd /home/au631999/website
+
+# pull changes from github
+git pull origin master
+ 
 # build for production with minification
 npm run build
+```
 
-# start for production
-forever start ./server/bin/www
+### start production server (daemon, should not be necessary)
+```shell script
+cd /home/au631999/website
+npm run serve
 ```
 
 ## Texts
