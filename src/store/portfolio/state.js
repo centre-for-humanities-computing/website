@@ -27,7 +27,7 @@ const state = {
       where each researcher develop their specific research project with technical support from CHCAA.`,
     }, */
     {
-      author: 'Michael Bang Petersen',
+      author: 'Michael Bang Petersen ',
       src: '',
       jobTitle: 'Associate Professor',
       association: 'Political Science',
