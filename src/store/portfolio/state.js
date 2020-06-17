@@ -28,7 +28,7 @@ const state = {
     }, */
     {
       author: 'Michael Bang Petersen',
-      src: '',
+      src: 'Michael_Bang_Petersen.png',
       jobTitle: 'Associate Professor',
       association: 'Political Science',
       quote: 'some text',
