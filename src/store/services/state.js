@@ -92,6 +92,13 @@ const state = {
       `,
       src: 'HD_imgix-391808-unsplash.png',
       tag: 'hosting'
+    }, {
+      title: 'Test service',
+      body: `
+      Hello world!
+      `,
+      src: '400_marvin-meyer-571072-unsplash.jpg',
+      tag: 'testing'
     }
   ]
 }
