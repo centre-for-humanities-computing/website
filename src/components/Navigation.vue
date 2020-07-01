@@ -143,11 +143,11 @@ export default {
       shrinkage: 0,
       items: [
         {title: 'Home', url: '/', icon: 'dashboard', deflateAt: 8},
-        {title: 'Portfolio', url: '/portfolio', icon: 'collections_bookmark', deflateAt: 7},
-        {title: 'Services', url: '/services', icon: 'widgets', deflateAt: 6},
-        {title: 'Workshop', url: '/workshop', icon: 'build', deflateAt: 5},
-        {title: 'Resources', url: '/resources', icon: 'extension', deflateAt: 4},
-        {title: 'Events', url: '/events', icon: 'date_range', deflateAt: 3},
+        {title: 'News', url: '/news', icon: 'date_range', deflateAt: 7},
+        {title: 'Portfolio', url: '/portfolio', icon: 'collections_bookmark', deflateAt: 6},
+        {title: 'Services', url: '/services', icon: 'widgets', deflateAt: 5},
+        {title: 'Workshop', url: '/workshop', icon: 'build', deflateAt: 4},
+        {title: 'Resources', url: '/resources', icon: 'extension', deflateAt: 3},
         {title: 'People', url: '/people', icon: 'people', deflateAt: 2},
         {title: 'Contact', url: '/contact', icon: 'mail', deflateAt: 1},
       ]

@@ -12,7 +12,7 @@ import People from './people'
 import Contact from './contact'
 import Workshop from './workshop'
 import Resources from './resources'
-import Events from './news'
+import News from './news'
 import Portfolio from './portfolio'
 
 Vue.use(Vuex)
@@ -30,7 +30,7 @@ store.registerModule('people', People)
 store.registerModule('contact', Contact)
 store.registerModule('workshop', Workshop)
 store.registerModule('resources', Resources)
-store.registerModule('events', Events)
+store.registerModule('news', News)
 store.registerModule('portfolio', Portfolio)
 
 export default store

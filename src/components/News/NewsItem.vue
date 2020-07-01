@@ -12,18 +12,27 @@
             justify-center
           >
             <v-card-title primary-title>
-              <a-badge
-                :src="item.src"
-                :size="avatarSize"
-              ></a-badge>
+              <v-img
+                v-if="item.imageSrc"
+                :src="item.imageSrc"
+                position="center left"
+              ></v-img>
+              <v-icon
+                :size="size"
+                v-else
+              >{{ defaultIcon }}</v-icon>
             </v-card-title>
           </v-flex>
           <v-flex xs9 class="quote">
-            <a-body
-              :title="item.author"
-              :subtitle="item.association"
-              :body="body"
-            ></a-body>
+            <v-card>
+              <v-card-title>
+                <div class="heading">
+                  <h2 v-html="item.title"></h2>
+                  <em v-if="item.date" v-html="item.date"></em>
+                </div>
+              </v-card-title>
+              <v-card-text v-html="body"/>
+            </v-card>
           </v-flex>
         </v-layout>
       </v-card>
@@ -35,6 +44,11 @@
 import { ABadge, ABody } from '../Avatar'
 export default {
   name: 'NewsItem',
+  data() {
+    return {
+      defaultIcon: 'fas fa-newspaper-o'
+    }
+  },
   props: {
     item: {
       type: Object,
@@ -47,7 +61,7 @@ export default {
   },
   computed: {
     body() {
-      return `<p>${this.testimony.quote || ''}</p><p class="tags">${this.testimony.tags.join(' | ')}</p>`
+      return `<p>${this.item.body || ''}</p><p class="tags">${this.item.tags.join(' | ')}</p>`
     },
     avatarSize () {
       const width = this.$store.state.box.sceneWidth
