@@ -44,9 +44,9 @@ const router = new Router({
       component: () => import('../components/StopWords.vue')
     },
     {
-      path: '/events',
+      path: '/news',
       name: 'events',
-      component: () => import('../components/Events.vue')
+      component: () => import('../components/News/News.vue')
     },
     {
       path: '/people',

@@ -12,7 +12,7 @@ import People from './people'
 import Contact from './contact'
 import Workshop from './workshop'
 import Resources from './resources'
-import Events from './events'
+import Events from './news'
 import Portfolio from './portfolio'
 
 Vue.use(Vuex)
