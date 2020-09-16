@@ -1,5 +1,5 @@
 [Unit]
-Description=Application proxy and status alerter
+Description=CHCAA Website
 After=network.target
 
 [Service]
