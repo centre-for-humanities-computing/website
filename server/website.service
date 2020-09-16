@@ -1,0 +1,16 @@
+[Unit]
+Description=Application proxy and status alerter
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/node /home/au631999/website/server/bin/www
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=chcaaWebsite
+Environment=PATH=/usr/bin:/usr/local/bin NODE_ENV=production DEBUG=app:*
+WorkingDirectory=/home/au631999/website/
+
+[Install]
+WantedBy=multi-user.target
