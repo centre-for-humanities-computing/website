@@ -21,7 +21,7 @@ const state = {
       author: 'Mads Rosendahl Thomsen',
       jobTitle: 'Professor with Special Responsibilities, DLP coordinator',
       association: '',
-      src: 'mads.png', 
+      src: 'mads.png',
       quote: `The digital transformation is impacting every domain in the humanities. The goal of the Digital Literacy project is to connect researchers from all the departments of
       Arts at Aarhus University, and empower them with knowledge and understanding of digital and computational technologies. The project consists of workshops, tutorials and sprints
       where each researcher develop their specific research project with technical support from CHCAA.`,
