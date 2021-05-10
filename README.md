@@ -1,4 +1,4 @@
-# Center for Humanities Computing Sites Generator
+# Center for Humanities Computing Sites Generator (deprecated)
 
 > generates static vue app into ./docs to be served with github pages at https://centre-for-humanities-computing.github.io/website/
 
